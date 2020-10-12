@@ -1,0 +1,37 @@
+.header {
+  height: 54px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+  justify-content: center;
+}
+
+.imgFile {
+  width: 30%;
+  height: 40%;
+  box-sizing: border-box;
+  padding: 12px;
+}
+.imgFile img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
